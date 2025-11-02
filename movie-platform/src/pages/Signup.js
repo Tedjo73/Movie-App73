@@ -4,7 +4,7 @@ import { createUserWithEmailAndPassword, updateProfile } from 'firebase/auth';
 import { auth } from '../firebase';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://movie-app73-pfnf.vercel.app/';
 
 function Signup() {
   const [formData, setFormData] = useState({
